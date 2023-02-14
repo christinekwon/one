@@ -6,6 +6,17 @@
             display: block;
         }
         
+        #letter {
+            /* background-color: red; */
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+            width: 100%;
+            margin-top: 10vh;
+            font-size: larger;
+            color: black;
+        }
+        
         #button {
             display: block;
             /* background-color: white; */
@@ -79,8 +90,8 @@
             100% {
                 opacity: 1;
             }
-        }</style><body onload="start()"><script src="/one/main.d9a891ba1de45df2176f.js"></script></body><script>function start() {
-            // setTimeout(type, 1000);
+        }</style><body onload="start()"><div class="test"><div id="letter" class="typed"></div></div><script src="/one/main.3fcf9bc88f85720366a5.js"></script></body><script>function start() {
+            setTimeout(type, 1000);
         }
 
         function closeWindow() {
@@ -91,7 +102,20 @@
         function type() {
             messages = [
                 "...",
-                "...",
+                "one year with you.",
+                "i have learned how to love.",
+                "i have learned what it’s like to be loved.",
+                "thank you for opening your beautiful heart up to me and keeping me warm with your kindness.",
+                "i love that we are both trying to pursue creative careers, and even though it’s difficult, we are super supportive of each other.",
+                "it really helps me to have you by my side during this time, and your support means the world to me.",
+                "i hope i am a helpful addition to your life as well.",
+                "meeting and falling in love with you has transformed my life in unimaginable ways.",
+                "thank you for the all the beautiful memories we have made so far.",
+                "i can’t wait to see what this next year has in store for us.",
+                "happy anniversary, matt. thank you for everything.",
+                "i love you.",
+                "xoxo",
+                "christine"
             ];
 
             var typed = new Typed('.typed', {
